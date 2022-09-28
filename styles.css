@@ -6,17 +6,17 @@
 
 @font-face {
     font-family: Metropolis;
-    src: url(https://cdn.glitch.global/b5a68828-18c9-4146-bdce-63160433064d/Metropolis1920-Regular.otf?v=1662318781411);
+    src: url(fonts/Metropolis1920-Regular.otf);
 }
 
 @font-face {
     font-family: Geotica;
-    src: url(https://cdn.glitch.global/b5a68828-18c9-4146-bdce-63160433064d/Geotica_Three-webfont.woff?v=1662318807039);
+    src: url(fonts/Geotica_Three-webfont.woff);
 }
 
 /* HEADING PART */
 #heading {
-    background: url(https://cdn.glitch.global/b5a68828-18c9-4146-bdce-63160433064d/2Z0i4tW.jpeg?v=1662317757099) no-repeat center center fixed;
+    background: url(images/background.jpeg) no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
     margin: 0px;
