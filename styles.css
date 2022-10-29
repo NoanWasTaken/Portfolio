@@ -1,0 +1,88 @@
+@font-face {
+    font-family: MangoLight;
+    src: url(fonts/MangoGrotesque-Light.otf);
+}
+@font-face {
+    font-family: MangoMedium;
+    src: url(fonts/MangoGrotesque-Medium.otf);
+} 
+@font-face {
+    font-family: MangoRegular;
+    src: url(fonts/MangoGrotesque-Regular.otf);
+}
+@font-face {
+    font-family: Intro;
+    src: url(fonts/Intro.otf);
+}
+@font-face {
+    font-family: IntroInline;
+    src: url(fonts/Intro\ Inline.otf);
+}
+@font-face{
+    font-family: MangoThin;
+    src: url(fonts/MangoGrotesque-Thin.otf);
+}
+nav a{
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Intro;
+    color: black;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+nav{
+    text-align: center;
+    margin-top: 2rem;
+}
+h1, h2{
+    position: absolute;
+    font-family: MangoThin;
+    color: #323232;
+    font-size: 180px;
+    text-decoration-line:underline;
+    text-underline-offset: 15px;
+    text-decoration-thickness: 6px;
+    padding-left: 9rem;
+    margin-top: 7rem;
+}
+h2{
+    padding-top: 12rem;
+}
+#lien1{
+    position: absolute;
+    left: 50rem;
+    transition: all 0.3s ease;
+}
+#photo1, #photo2{
+    height: 35rem;
+    width: 15rem;
+}
+#container1{
+padding-top: 4rem;
+}
+#lien2{
+    position: absolute;
+    left: 65.1rem;
+    transition: all 0.3s ease;
+}
+#lien1:hover{
+    opacity: 80%;
+}
+#lien2:hover{
+    opacity: 80%;
+   
+}
+nav a::after{
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: all 0.25s ease-out;
+}
+nav a:hover::after{
+    transform: scaleX(1);
+  transform-origin: bottom left;
+}
