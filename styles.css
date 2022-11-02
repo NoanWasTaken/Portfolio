@@ -23,7 +23,7 @@
     src: url(fonts/MangoGrotesque-Thin.otf);
 }
 nav a{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     text-decoration: none;
     font-family: Intro;
     color: black;
@@ -38,7 +38,7 @@ h1, h2{
     position: absolute;
     font-family: MangoThin;
     color: #323232;
-    font-size: 180px;
+    font-size: 25rem;
     text-decoration-line:underline;
     text-underline-offset: 15px;
     text-decoration-thickness: 6px;
