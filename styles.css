@@ -23,7 +23,7 @@
     src: url(fonts/MangoGrotesque-Thin.otf);
 }
 nav a{
-    font-size: 25px;
+    font-size: 1.5em;
     text-decoration: none;
     font-family: Intro;
     color: black;
