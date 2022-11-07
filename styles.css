@@ -1,88 +1,167 @@
 @font-face {
-    font-family: MangoLight;
-    src: url(fonts/MangoGrotesque-Light.otf);
+    font-family: Sonder;
+    src: url(fonts/SonderSlab-BlackRough.otf);
 }
 @font-face {
-    font-family: MangoMedium;
-    src: url(fonts/MangoGrotesque-Medium.otf);
-} 
-@font-face {
-    font-family: MangoRegular;
-    src: url(fonts/MangoGrotesque-Regular.otf);
+    font-family: Mermaid1001;
+    src: url(fonts/Mermaid1001.ttf);
 }
-@font-face {
-    font-family: Intro;
-    src: url(fonts/Intro.otf);
+body {
+    margin: 0px;
 }
-@font-face {
-    font-family: IntroInline;
-    src: url(fonts/Intro\ Inline.otf);
+
+nav h2 {
+    display: inline;
+    margin-left: 3em;
+    color: white;
 }
-@font-face{
-    font-family: MangoThin;
-    src: url(fonts/MangoGrotesque-Thin.otf);
+
+section {
+    display: inline;
+    float: right;
 }
-nav a{
-    font-size: 25px;
-    text-decoration: none;
-    font-family: Intro;
-    color: black;
-    padding-left: 6rem;
-    padding-right: 6rem;
-}
-nav{
-    text-align: center;
-    margin-top: 2rem;
-}
-h1, h2{
+
+#menu_btn {
+    color: white;
+    padding: 0.5em;
+    font-size: 24px;
     position: absolute;
-    font-family: MangoThin;
-    color: #323232;
-    font-size: 180px;
-    text-decoration-line:underline;
-    text-underline-offset: 15px;
-    text-decoration-thickness: 6px;
-    padding-left: 9rem;
-    margin-top: 7rem;
+    top: 0.34em;
+    left: 0.7em;
 }
-h2{
-    padding-top: 12rem;
-}
-#lien1{
-    position: absolute;
-    left: 50rem;
-    transition: all 0.3s ease;
-}
-#photo1, #photo2{
-    height: 35rem;
-    width: 15rem;
-}
-#container1{
-padding-top: 4rem;
-}
-#lien2{
-    position: absolute;
-    left: 65.1rem;
-    transition: all 0.3s ease;
-}
-#lien1:hover{
-    opacity: 80%;
-}
-#lien2:hover{
-    opacity: 80%;
-   
-}
-nav a::after{
+
+nav {
+    padding: 2em;
+    background-color: #DB8A74;
+    position: fixed;
     width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-  left: 0;
-  background-color: black;
-  transform-origin: bottom right;
-  transition: all 0.25s ease-out;
+    z-index: 1;
 }
-nav a:hover::after{
-    transform: scaleX(1);
-  transform-origin: bottom left;
-}g
+
+#menu_btn:hover {
+    color: #333;
+}
+
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: #111;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+    z-index: 3;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+main * {
+    margin: 0px;
+}
+
+main p {
+    padding-top: 3em;
+    padding-left: 2em;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    margin: 0px;
+    padding: 1em;
+    
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /** Simulationg background-size: cover */
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+.video-wrapper {
+    /* Telling our absolute positioned video to 
+    be relative to this element */
+    position: relative;
+
+    width: 100%;
+    height: 100vh;
+
+    /* Will not allow the video to overflow the 
+    container */
+    overflow: hidden;
+
+    /* Centering the container's content vertically 
+    and horizontally */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main_title{
+    position: absolute;
+    top: 15em;
+    left: 3em;
+}
+#main_title h1, #main_title h2{
+    font-size: 9em;
+    color: white;
+    font-family: Mermaid1001;
+    text-shadow: 4px 6px black;
+}
+#main_title h2{
+    margin-top: -0.3em;
+}
+#desc_text{
+    position:absolute;
+    top: 35rem;
+    left: 3em;
+}
+#p1,#p2{
+    font-size: 1.3em;
+    color: white;
+    font-family: Sonder;
+    padding: 0;
+    text-shadow: 2px 2px black;
+}
