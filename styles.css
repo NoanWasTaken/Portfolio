@@ -194,7 +194,6 @@ video {
         top: 14em;
         left: 1.5em;
         text-align: center;
-        width: 100vh;
     }
     #desc_text {
         position: absolute;
