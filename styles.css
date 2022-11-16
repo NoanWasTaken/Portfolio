@@ -2,12 +2,16 @@
     font-family: Sonder;
     src: url(fonts/SonderSlab-BlackRough.otf);
 }
+
 @font-face {
     font-family: Mermaid1001;
     src: url(fonts/Mermaid1001.ttf);
 }
+
 body {
     margin: 0px;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 nav h2 {
@@ -106,7 +110,7 @@ footer {
 footer p {
     margin: 0px;
     padding: 1em;
-    
+
 }
 
 video {
@@ -139,29 +143,105 @@ video {
     align-items: center;
     justify-content: center;
 }
-#main_title{
+
+#main_title {
     position: absolute;
     top: 15em;
     left: 3em;
 }
-#main_title h1, #main_title h2{
+
+#main_title h1,
+#main_title h2 {
     font-size: 9em;
     color: white;
     font-family: Mermaid1001;
     text-shadow: 4px 6px black;
 }
-#main_title h2{
+
+#main_title h2 {
     margin-top: -0.3em;
 }
-#desc_text{
-    position:absolute;
+
+#desc_text {
+    position: absolute;
     top: 35rem;
     left: 3em;
 }
-#p1,#p2{
+
+#p1,
+#p2 {
     font-size: 1.3em;
     color: white;
     font-family: Sonder;
     padding: 0;
     text-shadow: 2px 2px black;
+}
+
+@media screen and (min-width:320px) {
+
+    #main_title h1,
+    #main_title h2 {
+        font-size: 4em;
+        color: white;
+        font-family: Mermaid1001;
+        text-shadow: 4px 6px black;
+        text-align: left;
+    }
+    #main_title {
+        position: absolute;
+        top: 14em;
+        left: 1.5em;
+        text-align: center;
+        width: 100vh;
+    }
+    #desc_text {
+        position: absolute;
+        top: 28rem;
+        left: 2em;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    #main_title h1,
+    #main_title h2 {
+        font-size: 10em;
+        color: white;
+        font-family: Mermaid1001;
+        text-shadow: 4px 6px black;
+    }
+
+    #main_title {
+        position: absolute;
+        top: 14em;
+        left: 5em;
+    }
+
+    #desc_text {
+        position: absolute;
+        top: 35rem;
+        left: 5.5em;
+    }
+
+}
+
+@media screen and (min-width:1440px) {
+
+    #main_title h1,
+    #main_title h2 {
+        font-size: 9em;
+        color: white;
+        font-family: Mermaid1001;
+        text-shadow: 4px 6px black;
+    }
+    #main_title {
+        position: absolute;
+        top: 18em;
+        left: 3em;
+    }
+    #desc_text {
+        position: absolute;
+        top: 38rem;
+        left: 3em;
+    }
 }
