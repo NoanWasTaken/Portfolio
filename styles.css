@@ -7,7 +7,7 @@
     font-family: Mermaid1001;
     src: url(fonts/Mermaid1001.ttf);
 }
-html{
+html,body{
     overflow-x: hidden;
 }
 body {
