@@ -200,6 +200,9 @@ video {
         top: 28rem;
         left: 2em;
     }
+    body, html{
+        overflow-x: hidden;
+    }
 }
 
 @media screen and (min-width:1024px) {
