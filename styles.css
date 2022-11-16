@@ -7,11 +7,12 @@
     font-family: Mermaid1001;
     src: url(fonts/Mermaid1001.ttf);
 }
-
+html{
+    overflow-x: hidden;
+}
 body {
     margin: 0px;
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 nav h2 {
