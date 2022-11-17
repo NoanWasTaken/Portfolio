@@ -7,6 +7,10 @@
     font-family: Mermaid1001;
     src: url(fonts/Mermaid1001.ttf);
 }
+@font-face {
+    font-family: Marcellus;
+    src: url(fonts/Marcellus/Marcellus-Regular.ttf);
+}
 html,body{
     overflow-x: hidden;
     width: 100%;
@@ -20,6 +24,7 @@ nav h2 {
     display: inline;
     margin-left: 3em;
     color: white;
+    font-family: Marcellus;
 }
 
 section {
@@ -78,6 +83,7 @@ nav {
     color: #818181;
     display: block;
     transition: 0.3s;
+    font-family: Marcellus;
 }
 
 .sidenav a:hover {
