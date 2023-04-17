@@ -1,88 +1,129 @@
 @font-face {
-    font-family: MangoLight;
-    src: url(fonts/MangoGrotesque-Light.otf);
+    font-family: Poppins;
+    src: url(fonts/Poppins-Regular.ttf);
 }
+
 @font-face {
-    font-family: MangoMedium;
-    src: url(fonts/MangoGrotesque-Medium.otf);
-} 
+    font-family: PoppinsItalic;
+    src: url(fonts/Poppins-MediumItalic.ttf);
+}
+
 @font-face {
-    font-family: MangoRegular;
-    src: url(fonts/MangoGrotesque-Regular.otf);
+    font-family: PoppinsLightItalic;
+    src: url(fonts/Poppins-LightItalic.ttf);
 }
+
 @font-face {
-    font-family: Intro;
-    src: url(fonts/Intro.otf);
+    font-family: PoppinsLight;
+    src: url(fonts/Poppins-Light.ttf);
 }
+
 @font-face {
-    font-family: IntroInline;
-    src: url(fonts/Intro\ Inline.otf);
+    font-family: ChakraLight;
+    src: url(fonts/ChakraPetch-Light.ttf);
 }
-@font-face{
-    font-family: MangoThin;
-    src: url(fonts/MangoGrotesque-Thin.otf);
+
+@font-face {
+    font-family: ChakraReg;
+    src: url(fonts/ChakraPetch-Regular.ttf);
 }
-nav a{
-    font-size: 25px;
+
+body {
+    background-color: #333333;
+    color: #fff;
+    font-family: ChakraLight;
+}
+
+#changing_desc {
+    color: #8884ff;
+    font-family: ChakraReg;
+
+}
+
+nav a {
+    color: white;
     text-decoration: none;
-    font-family: Intro;
-    color: black;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    height: 100%;
+    transition: all 0.3s;
+
 }
-nav{
-    text-align: center;
-    margin-top: 2rem;
+
+nav a:hover {
+    transition: all 0.3s;
+    color: #FC440F;
 }
-h1, h2{
-    position: absolute;
-    font-family: MangoThin;
-    color: #323232;
-    font-size: 180px;
-    text-decoration-line:underline;
-    text-underline-offset: 15px;
-    text-decoration-thickness: 6px;
-    padding-left: 9rem;
-    margin-top: 7rem;
+
+nav a span {
+    color: #FC440F;
+}
+
+nav {
+    height: 3em;
+    display: flex;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #8884ff;
+}
+
+h1 {
+    margin: 0;
+    font-size: 4em;
+    width: 100%;
+    color: #512260;
+    font-family: ChakraReg;
+}
+h1 span{
+    color: #FC440F;
 }
 h2{
-    padding-top: 12rem;
+    color: #8884ff;
+    font-size: 4em;
+    margin: 0;
 }
-#lien1{
+#menu_container {
+    display: flex;
     position: absolute;
-    left: 50rem;
-    transition: all 0.3s ease;
+    right: 0;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
 }
-#photo1, #photo2{
-    height: 35rem;
-    width: 15rem;
+
+#cv_download {
+    border: #FC440F 1px solid;
+    background: none;
+    color: white;
+    font-family: PoppinsLight;
+    font-size: 16px;
+    height: 3em;
+    width: 8em;
+    cursor: pointer;
+    transition: all 0.3s;
 }
-#container1{
-padding-top: 4rem;
+
+#cv_download:hover {
+    transition: all 0.3s;
+    background-color: #fc420f35;
 }
-#lien2{
-    position: absolute;
-    left: 65.1rem;
-    transition: all 0.3s ease;
+
+#logo {
+    height: 120%;
+    position: relative;
+    margin: 0.5em;
 }
-#lien1:hover{
-    opacity: 80%;
+
+.title_container {
+    margin-left: 20%;
+    padding-top: 15%;
 }
-#lien2:hover{
-    opacity: 80%;
-   
+
+#main_container {
+    height: 90vh;
+    background-color: #fde2ff;
+
 }
-nav a::after{
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-  left: 0;
-  background-color: black;
-  transform-origin: bottom right;
-  transition: all 0.25s ease-out;
-}
-nav a:hover::after{
-    transform: scaleX(1);
-  transform-origin: bottom left;
+
+body {
+    margin: 0;
 }
