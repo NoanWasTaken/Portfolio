@@ -1,2 +1,6 @@
-Voici mon portfolio (toujours en cours de création)
-Le site ça être en refonte complète d'ici quelques semaines, car je vais travailler sur un nouveau design
+# My Portfolio
+Here's **my portfolio** *(currently being remade from zero)*
+## What can you find here ?
+Here, you will be able to see all my biggest projects so far, but also my resume and the different programming languages i'm learning/mastering
+### Where can you access it ?
+You can visit my portfolio at [noandelatouche.com](https://noandelatouche.com)
